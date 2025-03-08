@@ -36,3 +36,40 @@ switch (number) {
     default:
     console.log("march");
 }
+
+
+//-------------------------------------------------------------------------------------
+
+
+
+let number = 0;
+let result;
+switch (number) {
+    case 0:
+    result="monday"
+     break;
+     case 1:
+     result="tuesday"
+    break;
+     case 2:
+     result="wednwsday"
+    break;
+    case 3:
+      result="thursday"
+     break;
+     case 4:
+   result="friday"
+     break;
+     case 5:
+    result="saturday"
+     break;
+    case 6:
+    result="sunday"
+     break;
+
+                        
+
+    default:
+
+}
+console.log(result);
