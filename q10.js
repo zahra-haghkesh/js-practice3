@@ -6,12 +6,16 @@
 
 
 function calculateCircleArea (r){
-return Math.pi *r*r;
+let form = r*r*Math.PI
+let area = form.toFixed(2);
+return Number(area);
 }
 console.log(calculateCircleArea(3));
 
 
 function calculateCircleCircumference(r){
-return 2*Math.pi*r
+let formo =2*r*Math.PI
+let circum = formo.toFixed(2);
+return Number(circum);
 }
 console.log(calculateCircleCircumference(3));
